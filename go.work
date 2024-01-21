@@ -5,4 +5,5 @@ use (
 	./02-Variables
 	./03-UserInput
 	./04-Conversions
+	./05-Time
 )
