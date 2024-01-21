@@ -7,4 +7,5 @@ use (
 	./04-Conversions
 	./05-Time
 	./06-Memory
+	./07-Pointers
 )
