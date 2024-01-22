@@ -9,4 +9,5 @@ use (
 	./06-Memory
 	./07-Pointers
 	./08-Array
+	./09-Slices
 )
