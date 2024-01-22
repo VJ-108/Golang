@@ -11,4 +11,5 @@ use (
 	./08-Array
 	./09-Slices
 	./10-Maps
+	./11-Structs
 )
