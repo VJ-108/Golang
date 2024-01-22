@@ -10,4 +10,5 @@ use (
 	./07-Pointers
 	./08-Array
 	./09-Slices
+	./10-Maps
 )
