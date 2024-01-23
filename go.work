@@ -13,4 +13,5 @@ use (
 	./10-Maps
 	./11-Structs
 	./12-If_Else
+	./13-Switch_Case
 )
