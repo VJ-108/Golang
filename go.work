@@ -14,4 +14,5 @@ use (
 	./11-Structs
 	./12-If_Else
 	./13-Switch_Case
+	./14-Loops
 )
