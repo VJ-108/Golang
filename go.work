@@ -17,4 +17,5 @@ use (
 	./14-Loops
 	./15-Functions
 	./16-Methods
+	./17-Defer
 )
