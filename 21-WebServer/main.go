@@ -9,7 +9,8 @@ import (
 
 func main() {
 	fmt.Println("Making Different Request")
-	GET()
+	// GET()
+	POST()
 }
 
 func GET() {
@@ -25,11 +26,26 @@ func GET() {
 
 	var responseString strings.Builder
 	content, _ := io.ReadAll(response.Body)
-	ByteCount,_ := responseString.Write(content)
+	ByteCount, _ := responseString.Write(content)
 
 	// fmt.Println(string(content))
-	fmt.Println("ByteCount: ",ByteCount)
+	fmt.Println("ByteCount: ", ByteCount)
 	fmt.Println(responseString.String())
+}
 
-	
+func POST() {
+	const myURL = "http://localhost:8000/post"
+	requestBody := strings.NewReader(`{
+		"coursename" : "Hello",
+		"price" : 0,
+		"platform" : "Hello.com"
+	}`)
+	response, err := http.Post(myURL, "application/json", requestBody)
+	if err != nil {
+		panic(err)
+	}
+	defer response.Body.Close()
+	content, _ := io.ReadAll(response.Body)
+
+	fmt.Println(string(content))
 }
