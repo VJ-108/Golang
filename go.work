@@ -26,4 +26,5 @@ use (
 	./23-Modules
 	./24-API
 	./25-Goroutine
+	./26-RaceCondition
 )
