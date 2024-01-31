@@ -28,4 +28,5 @@ use (
 	./25-Goroutine
 	./26-RaceCondition
 	./27-Channels_DeadLock
+	./28-Math
 )
