@@ -25,4 +25,5 @@ use (
 	./22-Json
 	./23-Modules
 	./24-API
+	./25-Goroutine
 )
