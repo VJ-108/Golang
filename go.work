@@ -27,4 +27,5 @@ use (
 	./24-API
 	./25-Goroutine
 	./26-RaceCondition
+	./27-Channels_DeadLock
 )
